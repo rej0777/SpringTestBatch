@@ -18,7 +18,7 @@ import org.springframework.transaction.PlatformTransactionManager;
 
 @Configuration 
 @EnableBatchProcessing
-public class TaskletJob1 extends DefaultBatchConfiguration { //
+public class TaskletJob1  { //extends DefaultBatchConfiguration
 
 	@Autowired
 	ClassTasklet1 classTasklet1;

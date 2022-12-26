@@ -22,7 +22,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @SpringBootApplication
 @EnableBatchProcessing
 @EnableAsync
-
+//@EnableJpaRepositories("some.root.package")
 public class SpringTestBatchApplication  {
 
 	
