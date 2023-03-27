@@ -48,14 +48,28 @@ public class JobService {
 
 		if (jobName.equals("taskletJob")) {
 			jobLauncher.run(taskletJob, paramJob);
-			// jobLauncher.run(taskletJob, paramJob);
-
 		} else if (jobName.equals("job1Start")) {
 			jobLauncher.run(job1Start, paramJob);
-		} else if (jobName.equals("treeJobName")) {
+		} else if (jobName.equals("xxxJobName")) {
 //			jobExecution=	jobLauncher.run(treeJob, paramJob);
 		}
 		// System.out.println("job xecution ID " + jobExecution.getId());
 	}
 
 }
+/*
+
+
+http://localhost:8080/api/job/start/job1Start
+
+[
+	{
+		"paramKey": "itest",
+		"paramValue": "24"
+	},
+	{
+		"paramKey": "outputFile",
+		"paramValue": "D:\\xmlFileItemWriterOUTPUT.xml"
+	}
+]
+*/

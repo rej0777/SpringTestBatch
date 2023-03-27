@@ -61,15 +61,8 @@ public class JobController {
 	public List<StudentCsv> students() { //StudentResponse
 		return Arrays.asList(
 				new StudentCsv(1L, "John", "Smith", "john@gmail.com"),
-				new StudentCsv(2L, "Sachin", "Dave", "sachin@gmail.com"),
-				new StudentCsv(3L, "Peter", "Mark", "peter@gmail.com"),
-				new StudentCsv(4L, "Martin", "Smith", "martin@gmail.com"),
-				new StudentCsv(5L, "Raj", "Patel", "raj@gmail.com"),
-				new StudentCsv(6L, "Virat", "Yadav", "virat@gmail.com"),
-				new StudentCsv(7L, "Prabhas", "Shirke", "prabhas@gmail.com"),
-				new StudentCsv(8L, "Tina", "Kapoor", "tina@gmail.com"),
-				new StudentCsv(9L, "Mona", "Sharma", "mona@gmail.com"),
-				new StudentCsv(10L, "Rahul", "Varma", "rahul@gmail.com"));
+				new StudentCsv(2L, "John2", "Smith2", "john2@gmail.com"),
+				new StudentCsv(3L, "John3", "Smith3", "john3@gmail.com"),				
 	}
 	
 	
