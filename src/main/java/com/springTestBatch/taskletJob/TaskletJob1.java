@@ -39,14 +39,12 @@ public class TaskletJob1  { //extends DefaultBatchConfiguration
 			System.out.println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!hello");
 			// simulate processing time
 		//	Thread.sleep(random.nextInt(3000));
+		
 			return RepeatStatus.FINISHED;
 		}, transactionManager)
 				.tasklet(classTasklet1, transactionManager)   
 				.build();
 		
 	}
-	
-	
-	  
 
 }

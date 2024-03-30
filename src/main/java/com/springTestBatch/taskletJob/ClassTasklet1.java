@@ -13,6 +13,7 @@ public class ClassTasklet1 implements Tasklet, InitializingBean {
 	@Override
 	public RepeatStatus execute(StepContribution contribution, ChunkContext chunkContext) throws Exception {
 
+		
 		System.out.println("Klasa RepeatStatus  execute #######################");
 
 		return RepeatStatus.FINISHED; // CONTINUABLE;
